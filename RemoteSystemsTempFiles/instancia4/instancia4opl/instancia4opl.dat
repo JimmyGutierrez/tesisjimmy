@@ -1,0 +1,11 @@
+/*********************************************
+ * OPL 6.3 Data
+ * Author: jimmy
+ * Creation Date: 31/08/2014 at 15:47:46
+ *********************************************/
+
+SheetConnection sheet("opldata.xlsx");
+
+S from SheetRead(sheet, "Hoja1!C14:CX113");
+R from SheetRead(sheet, "Hoja1!C5:L9");
+W from SheetRead(sheet, "Hoja1!R5:AA5");

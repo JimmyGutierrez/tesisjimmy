@@ -1,0 +1,43 @@
+Nombre: Instancia 5
+
+Número de proyectos: 2
+
+Número de especialidades: 2
+
+Número total de personas disponibles: 5
+
+Porcentaje de asignación de personal: 80.0%
+
+Tipo de jornadas disponibles:
+0.0 0.5 1.0 
+
+Personas disponibles por especialidad:
+Especialidad 0 : 2.0
+Especialidad 1 : 3.0
+
+SOLUCIÓN DISEÑADA PARA ALCANZAR 100% DE EFICIENCIA
+
+Asignacion por proyectos:
+Integrantes grupo 0: 0 1 4 
+Integrantes grupo 1: 0 1 2 3 
+
+Número total de personas asignadas a cada proyecto:
+Proyecto 0 : 3
+Proyecto 1 : 4
+
+Asignación de Pesos:
+Proyecto 0 : 0.5
+Proyecto 1 : 0.5
+
+Requisitos:
+                  P0   P1   
+Especialidad 0  :1.0  1.0  
+Especialidad 1  :1.0  1.0  
+
+Solución Óptima:
+     P0   P1   
+0--0|0.5  0.5  
+1--0|0.5  0.5  
+2--1|0.0  0.5  
+3--1|0.0  0.5  
+4--1|1.0  0.0  
